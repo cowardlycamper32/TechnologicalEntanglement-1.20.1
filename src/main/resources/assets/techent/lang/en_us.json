@@ -1,3 +1,8 @@
 {
-  "techent.item.impure_raw_iron"
+  "item.techent.impure_raw_iron": "Impure Raw Iron",
+  "item.techent.impure_raw_copper": "Impure Raw Copper",
+  "item.techent.impure_raw_gold": "Impure Raw Gold",
+  "item.techent.refined_raw_iron": "Refined Raw Iron",
+  "item.techent.refined_raw_copper": "Refined Raw Copper",
+  "item.techent.refined_raw_gold": "Refined Raw Gold"
 }
