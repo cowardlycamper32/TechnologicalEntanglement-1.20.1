@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "techent:item/impure_raw_copper"
+  }
+}
