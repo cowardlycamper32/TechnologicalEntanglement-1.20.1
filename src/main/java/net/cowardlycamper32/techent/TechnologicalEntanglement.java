@@ -1,6 +1,7 @@
 package net.cowardlycamper32.techent;
 
 import com.mojang.logging.LogUtils;
+import net.cowardlycamper32.techent.item.ModCustomCreativeTab;
 import net.cowardlycamper32.techent.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;
@@ -28,6 +29,7 @@ public class TechnologicalEntanglement
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCustomCreativeTab.register(modEventBus);
         ModItems.register(modEventBus);
 
         // Register the commonSetup method for modloading
